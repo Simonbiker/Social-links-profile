@@ -11,7 +11,7 @@ body {
 
     height: 100vh;
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: center;
     align-items: center;
     flex-direction: column;
 }
@@ -81,7 +81,7 @@ h1{
     text-align: center;
     border-radius: 10px;
     margin-bottom: 16px;
-
+    transition:background-color 0.100ms, color 0.50s;
 }
 .button-text {
     color: var(--color-white);
@@ -92,7 +92,24 @@ h1{
     padding: 10px;
 }
 
+.button:hover{
+    background-color: var(--color-green);
+}
+.button-text:hover{
+    color: black;
+}
 
+@media screen and (max-width: 375px) {
+    .card {
+        width: auto;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    .card {
+        width: auto;
+    }
+}
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
