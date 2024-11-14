@@ -34,8 +34,8 @@ IpadMini
 Iphone
 ![iphone](image-2.png)
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/Simonbiker/Social-links-profile](https://github.com/Simonbiker/Social-links-profile)
+- Live Site URL: [https://simonbiker.github.io/Social-links-profile/](https://simonbiker.github.io/Social-links-profile/)
 
 ## My process
 
